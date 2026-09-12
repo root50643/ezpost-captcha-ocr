@@ -1,0 +1,20 @@
+[
+  {
+    "filename": "captcha_0966.jpg",
+    "mode": "green_contrast",
+    "background_green": 216.0,
+    "prediction": "30607"
+  },
+  {
+    "filename": "captcha_0845.jpg",
+    "mode": "red_green_difference",
+    "background_green": 136.0,
+    "prediction": "22734"
+  },
+  {
+    "filename": "captcha_0848.jpg",
+    "mode": "gradient_corrected_difference",
+    "background_green": 55.0,
+    "prediction": "56412"
+  }
+]

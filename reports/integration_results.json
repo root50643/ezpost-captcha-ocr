@@ -1,0 +1,22 @@
+{
+  "checks": [
+    "Installed extension injects and fills leading-zero result; input/change events dispatched; other fields and submit unaffected.",
+    "Unrelated DOM updates preserve manually edited result.",
+    "Image source refresh automatically fills new result.",
+    "Rapid consecutive image refreshes use the final loaded image.",
+    "Replacement image element is detected.",
+    "Broken image shows a manual-entry message.",
+    "Login query strings and fragments are supported.",
+    "Six disallowed path, scheme and host cases do not activate.",
+    "Browser decoded and recognized all 1,000 dataset images.",
+    "All predictions match Python; 80/80 held-out labels match."
+  ],
+  "metrics": {
+    "images": 1000,
+    "pythonDisagreements": 0,
+    "holdoutImages": 80,
+    "holdoutCorrect": 80,
+    "reviewImages": 108
+  },
+  "pageErrors": []
+}

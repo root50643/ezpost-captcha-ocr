@@ -1,0 +1,23 @@
+{
+  "training_images": 40,
+  "holdout_images": 80,
+  "total_images": 1000,
+  "review_images": 108,
+  "errors": 0,
+  "development": {
+    "baseline_correct": 8,
+    "improved_correct": 40,
+    "count": 40
+  },
+  "holdout": {
+    "baseline_correct": 19,
+    "improved_correct": 60,
+    "count": 60
+  },
+  "holdout_extra": {
+    "baseline_correct": 7,
+    "improved_correct": 20,
+    "count": 20
+  },
+  "development_leave_one_image_out_correct": 40
+}

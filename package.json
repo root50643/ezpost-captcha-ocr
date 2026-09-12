@@ -1,0 +1,13 @@
+{
+  "name": "ezpost-captcha-extension",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Browser integration tests for the EZPost OCR extension",
+  "scripts": {
+    "test": "node tests/browser/integration.mjs",
+    "test:live": "node tests/browser/live.mjs"
+  },
+  "devDependencies": {"playwright": "1.62.1"},
+  "engines": {"node": ">=20"}
+}

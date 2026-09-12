@@ -1,0 +1,20 @@
+# Local Python / Node environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+node_modules/
+
+# Runtime downloads, browser profiles, scratch files, build products
+.tools/
+.local/
+dist/
+build/
+.pytest_cache/
+test-results/
+playwright-report/
+.DS_Store
+Thumbs.db
+.env
+.env.*

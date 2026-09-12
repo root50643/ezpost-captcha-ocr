@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "EZPost 登入驗證碼自動填入",
+  "version": "1.0.0",
+  "description": "僅在 EZPost 指定登入頁，於本機辨識已顯示的圖形驗證碼並自動填入。",
+  "content_scripts": [{
+    "matches": [
+      "https://ezpost.post.gov.tw/Account/Login",
+      "https://ezpost.post.gov.tw/Account/Login?*"
+    ],
+    "js": ["model.js", "ocr.js", "content.js"],
+    "run_at": "document_idle",
+    "all_frames": false,
+    "world": "ISOLATED"
+  }]
+}
